@@ -4,8 +4,8 @@ import {Component} from '@angular/core';
   template:`
   <h3>My favorite component</h3>
     <i
-      class="glyphicon"
-      [class.glyphicon-star.empty]="!isFavorite"
+      class="glyphicon glyphicon-star"
+      [class.glyphicon-star-empty]="!isFavorite"
       [class.glyphicon-star]="isFavorite"
       (click)="onClick()"
       >
