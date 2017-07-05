@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
             <h1>My First Angular 2 App</h1>
               <courses></courses>
               <authors></authors>
+              <favorite></favorite>
               `
 
   //styleUrls: ['./app.component.css']
