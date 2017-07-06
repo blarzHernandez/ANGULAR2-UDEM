@@ -10,6 +10,7 @@ import { Component } from '@angular/core';
               <authors></authors>
               <i class="glyphicon glyphicon-star">dfdf</i>
               <favorite [is-favorite]="post.isFavorite" (change)="onChangeEmitter($event)"></favorite>
+              <likes [totalLikes]="tweet.totalLikes" [isLike]="tweet.isLike"></likes>
               `
 
   //styleUrls: ['./app.component.css']
@@ -19,6 +20,11 @@ export class AppComponent {
   post= {
     title:"Title",
     isFavorite:true
+  }
+
+  tweet={
+    totalLikes:20,
+    isLike:false
   }
 
   onChangeEmitter($event){

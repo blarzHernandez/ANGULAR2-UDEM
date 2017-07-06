@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import {CoursesComponent} from './courses.component';
 import {AuthorComponent} from './author.component';
 import {FavoriteComponent} from './favorite.component';
+import {LikeComponent} from './like.component';
 
 //Services
 import {CourseService} from './course.service';//Courses service
@@ -23,6 +24,7 @@ import {AutoGrowDirective} from './auto-grow.directive'; //auto-grow directive
     CoursesComponent,
     AuthorComponent,
     FavoriteComponent,
+    LikeComponent,
     AutoGrowDirective
   ],
   imports: [
