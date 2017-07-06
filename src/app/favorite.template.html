@@ -1,0 +1,8 @@
+<h3>My favorite component</h3>
+  <i
+    class="glyphicon glyphicon-star btn-lg"
+    [class.glyphicon-star-empty]="!isFavorite"
+    [class.glyphicon-star]="isFavorite"
+    (click)="onClick()"
+    >
+  </i>
