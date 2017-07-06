@@ -11,6 +11,8 @@ import { Component } from '@angular/core';
               <i class="glyphicon glyphicon-star">dfdf</i>
               <favorite [is-favorite]="post.isFavorite" (change)="onChangeEmitter($event)"></favorite>
               <likes [totalLikes]="tweet.totalLikes" [isLike]="tweet.isLike"></likes>
+              <hr/>
+              <voter></voter>
               `
 
   //styleUrls: ['./app.component.css']
