@@ -9,7 +9,7 @@ import {Component,Input,Output} from "@angular/core";
       cursor:pointer;
     }
     .highlighted{
-      color:deeppink;
+      color:black;
     }
     `]
 })

@@ -5,7 +5,7 @@ import {Component,Input, Output,EventEmitter} from '@angular/core';
   styles:[
     `
     .glyphicon-star{
-      color:orange;
+      color:red;
     }
     `
   ]

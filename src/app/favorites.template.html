@@ -1,0 +1,8 @@
+<h1>Favorite Component</h1>
+<p>Clic on Icon</p>
+<i class="glyphicon glyphicon-star-empty btn-lg"
+    [class.glyphicon-star-empty] = "!favorite"
+    [class.glyphicon-star]="favorite"
+    (click) = "isFavorite()"
+>
+</i>

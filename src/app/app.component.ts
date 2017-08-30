@@ -5,8 +5,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-            <h1>My First Angular 2 App</h1>
+            <h1>Angular 2 - 4</h1>
+            <favorite-comp></favorite-comp>
               <courses></courses>
+              <pipes></pipes>
               <authors></authors>
               <i class="glyphicon glyphicon-star">dfdf</i>
               <favorite [is-favorite]="post.isFavorite" (change)="onChangeEmitter($event)"></favorite>
