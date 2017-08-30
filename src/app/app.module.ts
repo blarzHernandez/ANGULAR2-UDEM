@@ -23,6 +23,7 @@ import {AutoGrowDirective} from './auto-grow.directive'; //auto-grow directive
 //Pipes
 import {PipesComponent} from './pipes.component';
 import {SummaryPipes} from './summary.pipes';
+import { TitleCasePipe } from './title-case.pipe';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import {SummaryPipes} from './summary.pipes';
     FavoritesComponent,
     AutoGrowDirective,
     PipesComponent,
-    SummaryPipes
+    SummaryPipes,
+    TitleCasePipe
 
   ],
   imports: [

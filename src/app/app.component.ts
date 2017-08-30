@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
             <h1>Angular 2 - 4</h1>
+            <input type="text" [(ngModel)]="stringTitle">
+            {{ stringTitle | titleCase}}
             <favorite-comp></favorite-comp>
+
               <courses></courses>
               <pipes></pipes>
               <authors></authors>
